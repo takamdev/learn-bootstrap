@@ -1,0 +1,14 @@
+@media screen and (max-width: 576px) {
+  .flagDrapeau2 {
+    display: flex;
+    gap: 5px;
+    top: 30px;
+    left: 25%;
+  }
+  .flagDrapeau {
+    display: none;
+  }
+  .img-thumbnail {
+    display: none;
+  }
+}/*# sourceMappingURL=index.css.map */
