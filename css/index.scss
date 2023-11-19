@@ -1,13 +1,24 @@
-
-@media screen and (max-width:576px) {
-
-.flagDrapeau{
-  display: none;
-
+.sousPresentation {
+  margin-top: 50px;
+  width: 1000px;
+  height: 300px;
+  background-image: url("../image/back1.jpg");
+  background-size: cover;
+  backdrop-filter: brightness(80%);
+ 
 }
-.img-thumbnail{
+
+@media screen and (max-width: 576px) {
+  .sousPresentation{
+  
+    margin-top: 20px;
+    width: 370px;
+    height: 370px;
+  }
+  .flagDrapeau {
     display: none;
-}
-
-}
-
+  }
+  .img-thumbnail {
+    display: none;
+  }
+}/*# sourceMappingURL=index.css.map */

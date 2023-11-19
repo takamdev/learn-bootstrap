@@ -1,9 +1,18 @@
+.sousPresentation {
+  margin-top: 50px;
+  width: 1000px;
+  height: 300px;
+  background-image: url("../image/back1.jpg");
+  background-size: cover;
+  -webkit-backdrop-filter: brightness(80%);
+          backdrop-filter: brightness(80%);
+}
+
 @media screen and (max-width: 576px) {
-  .flagDrapeau2 {
-    display: flex;
-    gap: 5px;
-    top: 30px;
-    left: 25%;
+  .sousPresentation {
+    margin-top: 20px;
+    width: 370px;
+    height: 370px;
   }
   .flagDrapeau {
     display: none;
@@ -11,4 +20,4 @@
   .img-thumbnail {
     display: none;
   }
-}/*# sourceMappingURL=index.css.map */
+} /*# sourceMappingURL=index.css.map */
